@@ -31,7 +31,7 @@ jobs:
 
       # 4. Menjalankan script automasi milikmu
       - name: Run Preprocessing Script
-        run: python src/automate_preprocessing.py
+        run: python preprocessing/automate_valenisaa.py
 
       # 5. Menyimpan output dataset_clean.csv sebagai artefak yang bisa diunduh
       - name: Upload Clean Dataset Artifact
